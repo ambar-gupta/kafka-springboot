@@ -1,4 +1,4 @@
-package com.ambar.KafkaProject.producer;
+package com.ambar.KafkaProject.string;
 
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

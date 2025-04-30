@@ -1,4 +1,4 @@
-package com.ambar.KafkaProject.consumer;
+package com.ambar.KafkaProject.string;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
