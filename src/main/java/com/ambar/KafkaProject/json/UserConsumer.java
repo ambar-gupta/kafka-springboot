@@ -8,7 +8,7 @@ public class UserConsumer {
 	
 	private User user;
 	
-	@KafkaListener(topics = "json_topic", groupId = "group_ID", errorHandler = "myErrorHandler")
+	@KafkaListener(topics = "json_topic", groupId = "group_ID", containerFactory = "kafkaListenerContainerFactory" )
 	public void readMessageFromTopic(User u) {
 		System.out.println("**** User Details : " + u.toString());
 		this.user = u;
